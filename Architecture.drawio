@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T09:15:36.524Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.1.0" etag="ARFJQiyCEA6PPID0NVAZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T09:55:19.088Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="epZyKAnN3ekQ5R4H2ouw" version="22.1.0" type="github">
   <diagram name="Page-1" id="U8L0ukU_PN1sJDdS8HuM">
-    <mxGraphModel>
+    <mxGraphModel dx="1370" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-1" target="VwwV0AtwGub8vgWoNdQi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-1" value="Start: Applicant enters the preference selection section." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-7" target="VwwV0AtwGub8vgWoNdQi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-7" value="Input: Choose preferred courses, programs, or options." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-10" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-9" target="VwwV0AtwGub8vgWoNdQi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-9" value="Process: System validates selections against available options." style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-11" target="VwwV0AtwGub8vgWoNdQi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="VwwV0AtwGub8vgWoNdQi-14">
+          <mxGeometry x="-0.7" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-11" value="Decision: &lt;br&gt;If valid, move &lt;br&gt;to the next step. Otherwise, prompt for corrections." style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-42.5" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-13" value="End: Application submitted successfully." style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwwV0AtwGub8vgWoNdQi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-11" target="VwwV0AtwGub8vgWoNdQi-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="110" />
+              <mxPoint x="230" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

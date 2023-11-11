@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T17:14:13.499Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tuBkB8kwJG8rRpJ_xNaB" version="22.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-11T17:56:52.876Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CmZYR8-ei8vvYkAo8D7r" version="22.1.0" type="github" pages="2">
   <diagram name="Page-1" id="U8L0ukU_PN1sJDdS8HuM">
     <mxGraphModel dx="1201" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,6 +415,152 @@
         </mxCell>
         <mxCell id="1eg71piulGIUfbQS_pav-60" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="414" y="328.12" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0050000000001" y="508.0999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-2" value="Begin: Verification process started." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="469.37" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-6" target="er8MWHKWdMH1Or7Nmps6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-6" value="Verify: Check the provided information for correctness." style="whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="469.37" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-7" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="620" y="475.62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-9" target="er8MWHKWdMH1Or7Nmps6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-12" value="Correct" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-11">
+          <mxGeometry x="-0.2136" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-9" target="er8MWHKWdMH1Or7Nmps6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-17" value="Wrong" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-15">
+          <mxGeometry x="-0.4736" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-9" value="Approval or Correction &lt;br&gt;Notification" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="410" y="447.49" width="120" height="116.25" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-14" target="er8MWHKWdMH1Or7Nmps6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-14" value="Edit: Edit the wrong details and go for re-verification." style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-19" target="er8MWHKWdMH1Or7Nmps6-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-19" value="Set up: Start to publish allotment data to candidate." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="731.25" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="770.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-21" value="Data publishing: Send the relevant data/results to the candidate." style="perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="730" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-22" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="414" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-24" target="er8MWHKWdMH1Or7Nmps6-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-24" value="Start: Get under way to manage round for allotment of seats." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="890" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-27" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-30" value="Data entry: Enter &lt;br&gt;necessary data like seats &amp;amp; courses offered, cutoff &lt;br&gt;score for round simulation." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="888.75" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-32" target="er8MWHKWdMH1Or7Nmps6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-32" value="Update: Reform the data like seats filled, current seat availability etc.&amp;nbsp;" style="perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="887.5" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-30" target="er8MWHKWdMH1Or7Nmps6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-43" target="er8MWHKWdMH1Or7Nmps6-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-45" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-44">
+          <mxGeometry x="-0.4406" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-43" value="Next round: Yes or No?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="690" y="869.37" width="120" height="116.25" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.442;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-43" target="er8MWHKWdMH1Or7Nmps6-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="849" />
+              <mxPoint x="81" y="849" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-49" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-48">
+          <mxGeometry x="-0.8306" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-63" target="er8MWHKWdMH1Or7Nmps6-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-63" value="Start: Initialise" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1141.25" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-65" target="er8MWHKWdMH1Or7Nmps6-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-65" value="Analysis: Analysing the &lt;br&gt;admission data." style="whiteSpace=wrap;html=1;fixedSize=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;size=-60;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1140" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-67" target="er8MWHKWdMH1Or7Nmps6-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-67" value="Process: System provides AI insights to institutes on Seat acceptance probability(SAR), capacity and resource allocation.&amp;nbsp;" style="whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1143.75" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-68" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-77" target="er8MWHKWdMH1Or7Nmps6-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-77" value="Set up: Start to send approval letters." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1311.25" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-79" target="er8MWHKWdMH1Or7Nmps6-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-79" value="Formatting: Prepare and format approval letters." style="whiteSpace=wrap;html=1;fixedSize=1;align=center;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;size=-60;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1310" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-81" target="er8MWHKWdMH1Or7Nmps6-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-81" value="Publish: Send it to the respective candidates selected." style="whiteSpace=wrap;html=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1313.75" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-82" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

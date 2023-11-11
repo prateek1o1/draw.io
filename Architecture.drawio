@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T17:56:52.876Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CmZYR8-ei8vvYkAo8D7r" version="22.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-11T18:15:36.573Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FWigPmRoM-Csd2sdH_I-" version="22.1.0" type="github" pages="2">
   <diagram name="Page-1" id="U8L0ukU_PN1sJDdS8HuM">
     <mxGraphModel dx="1201" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -561,6 +561,37 @@
         </mxCell>
         <mxCell id="er8MWHKWdMH1Or7Nmps6-82" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=0;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="650" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-85" target="er8MWHKWdMH1Or7Nmps6-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-93" value="External&lt;br&gt;Integration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-92">
+          <mxGeometry x="-0.1362" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-85" value="System" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1520" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-86" target="er8MWHKWdMH1Or7Nmps6-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-90" value="Internal&lt;br&gt;Integration" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;fontColor=default;" vertex="1" connectable="0" parent="er8MWHKWdMH1Or7Nmps6-88">
+          <mxGeometry x="-0.2613" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-86" value="Collective Offers confirmation Portal (COCP)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" edge="1" parent="1" source="er8MWHKWdMH1Or7Nmps6-87" target="er8MWHKWdMH1Or7Nmps6-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-87" value="Academic Institution Admission Hub" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="er8MWHKWdMH1Or7Nmps6-91" value="External&amp;nbsp;&lt;br&gt;System&lt;br&gt;(Payment Gateways, Digilocker)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;strokeColor=#996185;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1562.5" width="185" height="185" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

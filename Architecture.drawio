@@ -1,49 +1,174 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T09:55:19.088Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="epZyKAnN3ekQ5R4H2ouw" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T07:29:45.554Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1kikWjqpRgZCcaJo1VHf" version="22.1.0" type="github">
   <diagram name="Page-1" id="U8L0ukU_PN1sJDdS8HuM">
-    <mxGraphModel dx="1370" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1201" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-1" target="VwwV0AtwGub8vgWoNdQi-7">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-4" target="Y32tMnp3IdSmSeE9RUbX-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-1" value="Start: Applicant enters the preference selection section." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="20" width="120" height="60" as="geometry" />
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-4" value="Start: Applicant begins the application process." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-957.5" width="160" height="77.5" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-7" target="VwwV0AtwGub8vgWoNdQi-9">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-6" target="Y32tMnp3IdSmSeE9RUbX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-7" value="Input: Choose preferred courses, programs, or options." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="150" y="-10" width="180" height="80" as="geometry" />
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-6" value="Provide Input: Enter&lt;br&gt;Demographic details, academic details." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-958.75" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-9" target="VwwV0AtwGub8vgWoNdQi-11">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-8" target="Y32tMnp3IdSmSeE9RUbX-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-9" value="Process: System validates selections against available options." style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-8" value="Process: System ask for consent in Digilocker account for verification of documents." style="whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-955" width="150" height="72.5" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-11" target="VwwV0AtwGub8vgWoNdQi-13">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-11" target="Y32tMnp3IdSmSeE9RUbX-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="VwwV0AtwGub8vgWoNdQi-14">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-10" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-9">
           <mxGeometry x="-0.7" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-11" value="Decision: &lt;br&gt;If valid, move &lt;br&gt;to the next step. Otherwise, prompt for corrections." style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-42.5" width="160" height="145" as="geometry" />
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-11" value="Decision: &lt;br&gt;If valid, move &lt;br&gt;to the next step. Otherwise, prompt for corrections." style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-991.25" width="160" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-13" value="End: Application submitted successfully." style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="680" width="120" height="60" as="geometry" />
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-12" value="End: Application submitted successfully." style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-948.75" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VwwV0AtwGub8vgWoNdQi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VwwV0AtwGub8vgWoNdQi-11" target="VwwV0AtwGub8vgWoNdQi-7">
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-11" target="Y32tMnp3IdSmSeE9RUbX-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="110" as="sourcePoint" />
+            <mxPoint x="610" y="-837.5" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="570" y="110" />
-              <mxPoint x="230" y="110" />
+              <mxPoint x="610" y="-837.5" />
+              <mxPoint x="270" y="-837.5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-14" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-13">
+          <mxGeometry x="-0.9871" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-16" target="Y32tMnp3IdSmSeE9RUbX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-16" value="Start: Applicant enters the preference selection section." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-676.25" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-18" target="Y32tMnp3IdSmSeE9RUbX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-18" value="Input: Choose preferred institute, courses." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-677.5" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-20" target="Y32tMnp3IdSmSeE9RUbX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-20" value="Store: Save the entered preferences for that particular student." style="whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-673.75" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-23" target="Y32tMnp3IdSmSeE9RUbX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-22" value="Lock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-21">
+          <mxGeometry x="-0.7" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-23" value="Lock or not: &lt;br&gt;Do you want to lock the preferences or revisit your entries." style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-710" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-24" value="End: Preferences locked." style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="837" y="-667.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;fontFamily=Comic Sans MS;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-23" target="Y32tMnp3IdSmSeE9RUbX-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-556.25" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="620" y="-556.25" />
+              <mxPoint x="280" y="-556.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-26" value="Review" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-25">
+          <mxGeometry x="-0.9871" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-28" target="Y32tMnp3IdSmSeE9RUbX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-28" value="Start: Student will take part in mock allocation round." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-416.87" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-30" target="Y32tMnp3IdSmSeE9RUbX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-30" value="Input: Take &lt;br&gt;student selected preferences, &lt;br&gt;seats and courses offered and simulate the mock allocation round.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-420" width="220" height="83.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-32" target="Y32tMnp3IdSmSeE9RUbX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-32" value="Store: Save the outcome for that particular student." style="whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-413.75" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-35" target="Y32tMnp3IdSmSeE9RUbX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-42" value="No change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-33">
+          <mxGeometry x="-0.7116" y="-2" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-35" target="Y32tMnp3IdSmSeE9RUbX-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="-300" />
+              <mxPoint x="780" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-41" value="Change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y32tMnp3IdSmSeE9RUbX-40">
+          <mxGeometry x="-0.5822" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-35" value="Lock or not: &lt;br&gt;Do you want to lock the preferences or revisit your entries." style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-450" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-36" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-407.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-39" value="Preference order: Change preferences after reviewing outcome." style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-320" width="140" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.335;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-39" target="Y32tMnp3IdSmSeE9RUbX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-59" target="Y32tMnp3IdSmSeE9RUbX-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-59" value="Start: Student will take part in actual allocation round." style="rounded=1;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-116.25" width="160" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-61" target="Y32tMnp3IdSmSeE9RUbX-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-61" value="Input: Take &lt;br&gt;student selected preferences, &lt;br&gt;seats and courses offered and simulate the mock allocation round.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-122.5" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="Y32tMnp3IdSmSeE9RUbX-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="-77.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-63" value="Store: Save the outcome for that particular student." style="whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-113.75" width="150" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y32tMnp3IdSmSeE9RUbX-69" value="End" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-107.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

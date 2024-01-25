@@ -1,9 +1,174 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T08:23:50.042Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.0.1" etag="e2FyBzRu5X1ECa_F5JH_" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T08:56:36.852Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jdiFgNVplBJUDkAlFC2o" version="23.0.1" type="github">
   <diagram name="Page-1" id="N5wuTJQsyHk180UlIw57">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-1" value="DASHBOARD" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-2" value="CONNECTION MANAGER" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-8" value="Devices" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-2">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-9" value="Auto VPN Networks" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-2">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-3" value="IDENTITIES" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-26" value="Host Addresses&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-27" value="IPVerify" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-28" value="Ports" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-29" value="MAC Addresses" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-30" value="Reputation" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-31" value="Application Sets" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-32" value="WAN Performance" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-3">
+          <mxGeometry y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-4" value="NETWORKING" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-33" value="Local Networks" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-34" value="VLAN Interfaces" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-35" value="Tunnels" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-36" value="Routing" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-37" value="QoS" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-38" value="DNS Servers" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-39" value="Client Data Usage" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-40" value="NHRP" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-4">
+          <mxGeometry y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-5" value="STATUS" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="200" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-11" value="Internet" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-12" value="Local Networks" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-13" value="Client List" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-14" value="IPVerify" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-15" value="Tunnels" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-16" value="Firewall" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-17" value="Routing" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-18" value="IoT Security" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-19" value="Containers" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-20" value="SDK Apps" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-21" value="Ethernet" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-23" value="STP" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-22" value="GPS" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-24" value="NTP" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="410" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-25" value="System Logs" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-5">
+          <mxGeometry y="440" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-6" value="SECURITY" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-42" value="Zone Firewall" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-6">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-44" value="Cloud-Based Security" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-6">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-45" value="Threat Management" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-6">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-46" value="Web Access Filtering" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-6">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-47" value="Certificate Management" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-6">
+          <mxGeometry y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-7" value="SYSTEM" style="swimlane;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-41" value="Administration" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-43" value="NetCloud" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-48" value="Device Alerts" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-49" value="Serial Redirector" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-50" value="IoT" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-51" value="Containers" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-52" value="SDK Data" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-53" value="SNMP Configuration" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="230" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-54" value="System Control" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-55" value="Diagnostics" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BvTqEZxN-Y9l9Eqqcx_1-56" value="Setup Wizards" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BvTqEZxN-Y9l9Eqqcx_1-7">
+          <mxGeometry y="320" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
